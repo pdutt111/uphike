@@ -13,10 +13,10 @@ var app = express();
 var port = 1337;
 var data;
 var connection = mysql.createConnection({
-    host     : 'bo.favista.in',
-    user     : 'track',
-    password : 'pwoek724',
-    database :'favista'
+    host     : '',
+    user     : '',
+    password : '',
+    database :''
 });
 connection.connect(function(err){
 });
