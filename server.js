@@ -34,6 +34,7 @@ server=app.listen(port);
 // Routes
 app.get('/', function(req, resp){
     resp.render('index.html');
+    resp.end();
 });
 app.post('/getdata',function(req,res){
 
